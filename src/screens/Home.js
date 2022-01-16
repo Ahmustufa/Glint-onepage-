@@ -139,11 +139,16 @@ const Home = () => {
       </div>
 
       <div className="bg-home1">
-        <Row className="home1-row">
-           <Col md={12}>
-             <p><b>HELLO THERE</b></p>
-             <h1><b>WE ARE GLINT</b></h1>
+        <Row >
+          <Col></Col>
+           <Col md={6} className="home1-row mt-5">
+             <p className="home1-p"><b>HELLO THERE</b></p>
+             <h1 className="home1-h1"><b>We Are Glint</b></h1>
+
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
+
            </Col>
+           <Col></Col>
         </Row>
       </div>
     </>
@@ -152,10 +157,4 @@ const Home = () => {
 
 export default Home;
 
-{
-  /* <FontAwesomeIcon icon={faFacebookF} />
-        <FontAwesomeIcon icon={faInstagram} />
-        <FontAwesomeIcon icon={faTwitter} />
-        <FontAwesomeIcon icon={faBehance} />
-        <FontAwesomeIcon icon={faDribbble} /> */
-}
+

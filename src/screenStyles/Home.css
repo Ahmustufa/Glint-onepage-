@@ -1,183 +1,132 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-.bg-home{
-    background-image: url("https://preview.colorlib.com/theme/glint/images/hero-bg.jpg.webp");
-    height: 60rem;
-    background-position: center;
-    background-attachment: fixed;
-    width: 100%;
-    background-size: cover;
-    /* filter: brightness(50%); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+.bg-home {
+  background-image: url("https://preview.colorlib.com/theme/glint/images/hero-bg.jpg.webp");
+  height: 72rem;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  background-size: cover;
+  /* filter: brightness(50%); */
 }
-.nav{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    flex-direction: row-reverse;
-}
-.glint-logo{
-    height: 2rem;
-}
-.logo{
-    background: none;
-    background-color: none;
-}
-.glint-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: row-reverse;
 }
 
-/*  .navbar {
+.side{
     background-color: black;
-    height: 80px;
-    display: flex;
+    color: white;
+}
+
+.bar{
+    color: white !important;
     display: inline-block !important;
-    justify-content: end;
-    align-items: end;
-    
 }
 
-.menu-bars {
-    margin-left: 2rem;
+.glint-logo {
+  height: 2rem;
+}
+.logo {
+  background: none;
+  background-color: none;
+}
+.glint-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glint-container {
+  margin-top: 20rem !important;
+}
+.glint-p {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.2rem;
+  color: gray;
+}
+.glint-h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4.3rem;
+  color: honeydew;
+  line-height: 1.333;
+}
+.glint-col {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 2rem !important;
+}
+
+.glint-button1 {
+  font-family: "Montserrat", sans-serif;
+  border-radius: 0px !important;
+}
+.glint-button2 {
+  font-family: "Montserrat", sans-serif;
+  border-radius: 0px !important;
+}
+@media screen and (max-width: 988px) {
+  .glint-h1 {
+    font-size: 3.5rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .glint-h1 {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 508px) {
+  .glint-h1 {
     font-size: 2rem;
-    background: none;
-    color: white;
-}
-.nav-menu{
-    background-color: black;
-    width: 200px;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    top: 0;
-    left: -100%;
-    transition: 850ms;
-}
-.nav-menu.active{
-    left: 0;
-    transition: 350ms;
-}
-.nav-text{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    padding: 8px 0px 8px 16px;
-    list-style: none;
-    height: 60px;
-    color: white;
-}
-.nav-text a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding: 0px 16px;
-    border-radius: 4px;
-}
-
-.nav-text a:hover{
-    background-color: green;
-}
-.nav-menu-items {
-    width: 100%;
-}
-.navbar-toggle{
-    display: inline-block !important;    
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-span{
-    margin-left: 16px;
-}  */
-
-.glint-container{
-    margin-top: 5rem !important;
-}
-.glint-p{
-    font-family: 'Montserrat',sans-serif;
-    letter-spacing: 0.2rem;
-    color: gray
-}
-.glint-h1{
-    font-family: 'Montserrat',sans-serif;
-    font-size: 4.3rem;
-    color: honeydew;
-    line-height: 1.333;
-}
-.glint-col{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    margin-top: 2rem !important;
-}
-
-.glint-button1{
-    font-family: 'Montserrat',sans-serif;
-   border-radius: 0px !important;
-}
-.glint-button2{
-    font-family: 'Montserrat',sans-serif;
-   border-radius: 0px !important;
-}
-@media screen and (max-width: 988px)
- {
-    .glint-h1{
-      font-size: 3.5rem;
-    }
-    
   }
-  @media screen and (max-width: 800px  )
- {
-    .glint-h1{
-      font-size: 2.5rem;
-    }
-    
-    
+}
+@media screen and (max-width: 764px) {
+    .glint-container {
+        margin-top: 10rem !important;
+      }
+  .glint-p {
+    text-align: center;
   }
-  @media screen and (max-width: 508px)
- {
-     /* .glint-container{
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         flex-direction: column;
-     } */
-    .glint-h1{
-      font-size: 2rem;
-    }
-    
-  } 
-  @media screen and (max-width: 764px){
- .glint-p{
-     text-align: center;
- }
-  .glint-col{
+  .glint-col {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-.glint-h1{
+  }
+  .glint-h1 {
     text-align: center;
-}
-.glint-button2{
+  }
+  .glint-button2 {
     margin: 0.5rem;
     padding-left: 5rem !important;
     padding-right: 5rem !important;
-}
-.glint-button1{
+  }
+  .glint-button1 {
     margin: 0.5rem;
     padding-left: 4.9rem !important;
     padding-right: 4.9rem !important;
-}
   }
-.bg-home1{
-    height: 20rem;
-    background-color: #39b54a;
+}
+.bg-home1 {
+  height: 20rem;
+  background-color: #39b54a;
+}
+
+.home1-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home1-p{
+    color: black;
+    letter-spacing: 3px;
+}
+
+.home1-h1{
+    color: white;
+    font-size: 4.3rem;
 }
