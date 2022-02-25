@@ -21,8 +21,13 @@
 }
 
 .bar{
-    color: white !important;
+    color: #39b54a !important;
     display: inline-block !important;
+    background-color: black !important;
+}
+
+.direct{
+  color: #39b54a !important;
 }
 
 .glint-logo {
@@ -110,7 +115,7 @@
   }
 }
 .bg-home1 {
-  height: 20rem;
+  height: 40rem;
   background-color: #39b54a;
 }
 
@@ -121,6 +126,12 @@
     align-items: center;
 }
 
+.Row-counter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .home1-p{
     color: black;
     letter-spacing: 3px;
@@ -129,4 +140,65 @@
 .home1-h1{
     color: white;
     font-size: 4.3rem;
+}
+
+hr{
+  width: 20rem;
+  color: white;
+}
+
+.p4{
+  text-align: center;
+  font-size: 1.4rem ;
+}
+
+.p5{
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.p6{
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* .par{
+  display: flex !important;
+  justify-content: end;
+  align-items: flex-end;
+} */
+h6{
+  color: #39b54a;
+  letter-spacing: 0.2rem;
+}
+.v{
+  width: 0.1rem;
+  background-color: white;
+  height: 10rem;
+  
+}
+
+.hx{
+  font-size: 3rem;
+}
+
+.verticalLine{
+  width: 10px !important;
+  display: inline-block;
+}
+
+.Col-counter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.div-counter{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  margin-right: 3.5rem;
 }
