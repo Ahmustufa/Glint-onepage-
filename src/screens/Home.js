@@ -35,6 +35,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { Sidebardata } from "../components/Sidebardata";
 import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
+import Work from "./Work";
 
 const Home = () => {
   return (
@@ -124,7 +125,7 @@ const Home = () => {
                   </p>
                   <h1 className="glint-h1 mb-3">
                     <b>
-                      {" "}
+                      
                       We are a creative group <br /> of people who design <br />
                       influential brands and <br /> digital experiences.
                     </b>
@@ -243,7 +244,7 @@ const Home = () => {
         </Col>
       </Row >
       <Row className="my-5">
-        <Col md={6} className="justify-content-center mx-auto">
+        <Col md={5} className="justify-content-center mx-auto">
           <Row>
             <Col md={1} className="justify-content-end ms-auto p-2 bd-highlight" >
               <p
@@ -266,9 +267,9 @@ const Home = () => {
             </Col>
           </Row>
 
-     
+     <Col md={1}></Col>
         </Col>
-        <Col md={6} className="justify-content-center mx-auto">
+        <Col md={5} className="justify-content-center mx-auto">
           <Row>
             <Col md={1} className="justify-content-end ms-auto p-2 bd-highlight" >
               <p
@@ -292,11 +293,11 @@ const Home = () => {
           </Row>
 
         </Col>
-       
+        <Col md={1}></Col>
       </Row>
 
       <Row className="my-5">
-        <Col md={6} className="justify-content-center mx-auto">
+        <Col md={5} className="justify-content-center mx-auto">
           <Row>
             <Col md={1} className="justify-content-end ms-auto p-2 bd-highlight" >
               <p
@@ -318,8 +319,9 @@ const Home = () => {
               </p>
             </Col>
           </Row>
+          <Col md={1}></Col>
         </Col>
-        <Col md={6} className="justify-content-center mx-auto">
+        <Col md={5} className="justify-content-center mx-auto">
           <Row>
             <Col md={1} className="justify-content-end ms-auto p-2 bd-highlight" >
               <p
@@ -342,12 +344,12 @@ const Home = () => {
             </Col>
           </Row>
         </Col>
-       
+        <Col md={1}></Col>
       </Row>
 
 
       <Row className="my-5 ">
-        <Col md={6} className="justify-content-center mx-auto">
+        <Col md={5} className="justify-content-center mx-auto">
           <Row>
             <Col md={1} className="justify-content-end ms-auto p-2 bd-highlight" >
               <p
@@ -368,11 +370,12 @@ const Home = () => {
                 suscipit voluptas ipsa in tempora esse soluta sint.
               </p>
             </Col>
+            
           </Row>
-
+          <Col md={1}></Col>
      
         </Col>
-        <Col md={6} className="justify-content-center mx-auto">
+        <Col md={5} className="justify-content-center mx-auto">
           <Row>
             <Col md={1} className="justify-content-end ms-auto p-2 bd-highlight" >
               <p
@@ -393,15 +396,17 @@ const Home = () => {
                 suscipit voluptas ipsa in tempora esse soluta sint.
               </p>
             </Col>
+            
           </Row>
 
         
         </Col>
+        <Col md={1}></Col>
        
       </Row>
 
    
-
+    <Work/>
       
     </>
   );

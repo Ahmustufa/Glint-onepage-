@@ -1,0 +1,42 @@
+.heading{
+    background-color: black;
+    height: 40rem;
+    text-align: center;
+    
+}
+
+.heading h6{
+    color: green;
+    letter-spacing: 0.3rem;
+}
+
+.heading h1{
+    color: white;
+    font-size: 3rem;
+}
+
+.image1{
+    height: 560px;
+    width: 560px;
+    
+}
+
+.image2{
+    width: 560px;
+    height: 700px;
+}
+
+.div-img{
+    
+}
+
+.image3{
+    
+}
+
+ .divRelative{
+    position: relative;
+}
+.divAbsolute{
+    position: absolute;
+} 
